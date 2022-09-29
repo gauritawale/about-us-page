@@ -1,49 +1,118 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
   }
   
   html {
     box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+
   }
   
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
+    background-image: url(https://th.bing.com/th/id/R.95a896fb2a7cb8d85a77f8c90104d6cc?rik=hf%2btTustrt%2b2GA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f53%2f72%2fRaJ6Ap.jpg&ehk=vyBX6qxWP6lmsADmzUTQVEyLcZna55a8hzKedvGLxUU%3d&risl=&pid=ImgRaw&r=0);
+    
+  }
+
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .p{
+    font-family: cursive;
+    font-size: 30px;
+    color:goldenrod;
+  }
+  .p2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .h4{
+    font-style: normal italic;
   }
   
-  .container {
-    padding: 0 16px;
+  .container{
+
+    height:500px;
+    width: auto;
+    display: flex;
+    box-shadow: 10px 10px 18px 18px #aaaaaa, 7px 8px 4px #ffffff;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align:center;
+    background-image:url(https://previews.123rf.com/images/vicu9/vicu91801/vicu9180100673/94404481-picture-blurred-for-background-abstract-blur-food-in-restaurant.jpg?fj=1) ;    
+  
+  }
+
+  
+  .about_details span{
+
+    color:red;
+    text-align: center;
+    font-family:cursive;
+    font-style: italic bold;
+    justify-content: flex-start;
+    font-size: 50px;
+
+  }
+  .about_details h2{
+    font-family:cursive;
+    margin-bottom: 150px;
+    letter-spacing: 3px;
+    font-style: bold;
+    justify-content: flex-start;
+    font-size: 40px;
+    text-align:center;
+  }
+
+ .about_details p{
+
+    color: black;
+    font-style:oblique bold;
+    justify-content:flex-start;
+    font-size:30px;
+    text-align: center;
+  }
+
+  .btn{
+    margin-top: 50px;
+    margin-left:50px;
+    padding:9px 20px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: #373737;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+   }
+  
+  .btn:hover{
+
+    background-color: red;
+    }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 10px 10px;
   }
   
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  .card {
+    box-shadow: 4px 4px 8px 8px rgba(104, 18, 18, 0.2);
+    margin: 10px;
+    border-radius: 20px;
+     text-align: center ;
+     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+     height: 700px;
   }
-  
-  .title {
-    color: grey;
-  }
-  
+
   .button {
     border: none;
     outline: 0;
@@ -59,11 +128,32 @@ body {
   .button:hover {
     background-color: #555;
   }
-  
+
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
     }
   }
-    
+  img {
+    box-sizing: content-box;
+    border-radius: 20px;
+  }
+  .a{
+    size: 1000px;
+  }
+
+  .h{
+font-size: 70px;
+font-style:oblique ;
+font-family:cursive ;
+text-align: center;
+margin-top: 130%;
+font-weight: 700px;
+color:tomato;
+
+
+
+  }
+
+  
