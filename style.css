@@ -110,7 +110,7 @@ body {
     border-radius: 20px;
      text-align: center ;
      font-family:Verdana, Geneva, Tahoma, sans-serif ;
-     height: 700px;
+     height: 600px;;
   }
 
   .button {
@@ -148,7 +148,7 @@ font-size: 70px;
 font-style:oblique ;
 font-family:cursive ;
 text-align: center;
-margin-top: 130%;
+margin-top: 100%;
 font-weight: 700px;
 color:tomato;
 
