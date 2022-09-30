@@ -5,6 +5,8 @@ body {
   
   html {
     box-sizing: border-box;
+    background-color: rgb (255, 255, 255)  ;
+
 
   }
   
@@ -44,8 +46,8 @@ body {
     border-radius: 5px;
     margin-left: 10px;
     text-align:center;
-    background-image:url(https://previews.123rf.com/images/vicu9/vicu91801/vicu9180100673/94404481-picture-blurred-for-background-abstract-blur-food-in-restaurant.jpg?fj=1) ;    
-  
+    background-color: rgb (255, 255, 255)  ;
+
   }
 
   
@@ -97,6 +99,7 @@ body {
     background-color: red;
     }
 
+
   .column {
     float: left;
     width: 33.3%;
@@ -105,12 +108,19 @@ body {
   }
   
   .card {
-    box-shadow: 4px 4px 8px 8px rgba(104, 18, 18, 0.2);
+    border: 2px solid rgba(0,0,0,.125);
     margin: 10px;
-    border-radius: 20px;
-     text-align: center ;
+     border-radius: 0.25rem;
+     text-align:center;
      font-family:Verdana, Geneva, Tahoma, sans-serif ;
-     height: 600px;;
+     height: 550px;
+     width: 360px; 
+     background-color: #f1f1f1;
+     flex-direction: column;
+     padding: 5px;
+     box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+     
+     
   }
 
   .button {
@@ -123,6 +133,7 @@ body {
     text-align: center;
     cursor: pointer;
     width: 100%;
+    margin-top: 100px;
   }
   
   .button:hover {
@@ -137,23 +148,58 @@ body {
   }
   img {
     box-sizing: content-box;
-    border-radius: 20px;
+    border-radius: 50%;
+    margin-top: auto;
   }
-  .a{
-    size: 1000px;
-  }
+ 
 
   .h{
-font-size: 70px;
-font-style:oblique ;
-font-family:cursive ;
+font-size: 700%;
+font-style:bold ;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
 text-align: center;
 margin-top: 100%;
-font-weight: 700px;
-color:tomato;
+font-weight: 400%;
+color:grey;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
 
 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 
-  }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.fa-github {
+  background:black;
+  color: white;
+}
 
   
